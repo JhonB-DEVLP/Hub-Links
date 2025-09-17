@@ -15,6 +15,9 @@ export const metadata: Metadata = {
   title: "Meu Hub de Links",
   description: "Todos os meus links em um só lugar",
   generator: "v0.app",
+  icons: {
+    icon: "/FAV ICON PRINCIPAL.png", // ou /favicon.png, desde que esteja na pasta /public
+  },
 }
 
 export default function RootLayout({
@@ -25,7 +28,10 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="dark">
       <head>
-        <link href="https://fonts.googleapis.com/css2?family=Ethnocentric:wght@400&display=swap" rel="stylesheet" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Ethnocentric:wght@400&display=swap"
+          rel="stylesheet"
+        />
       </head>
       <body className={`font-exo2 ${exo2.variable} antialiased`}>
         <Suspense fallback={null}>{children}</Suspense>
