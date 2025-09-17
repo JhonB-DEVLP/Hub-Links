@@ -50,7 +50,7 @@ export default function HomePage() {
       <PixelBackground />
       <ThemeToggle />
 
-      <div className="relative z-10 container mx-auto px-4 py-12">
+      <div className="relative z-10 container mx-auto px-4 py-16">
         <div className="max-w-2xl mx-auto">
           {/* Header */}
           <div className="text-center mb-12">
@@ -74,8 +74,8 @@ export default function HomePage() {
               />
             </h1>
 
-            <p className="font-exo2 text-lg text-muted-foreground leading-relaxed max-w-md mx-auto">
-              {"Criador de Soluções Digitais Para a Sua Empresa"}
+            <p className="font-exo2 text-lg font-semibold text-muted-foreground leading-relaxed max-w-md mx-auto">
+              {"Soluções Digitais Personalizadas Para a Sua Empresa"}
             </p>
           </div>
 
